@@ -573,7 +573,7 @@ body {
 .menu__nav {
     float: right;
     position: relative;
-    top: 30px;
+    top: 45px;
 }
 
 .menu__nav ul li {
@@ -699,11 +699,10 @@ body {
     .menu__nav.mobile__menu ul li:hover a {
         text-shadow: none;
     }
-    
 }
 
 .main__header {
-    margin: 150px auto 100px auto;
+    margin: 125px auto 75px auto;
 }
 
 .main__header h1 {
@@ -1048,6 +1047,334 @@ body {
     height: 100%;
 }
 
+#back__top {
+    background: pink;
+    border-radius: 2px;
+    bottom: 40px;
+    color: #E16;
+    display: none;
+    font-size: 2em;
+    padding: 6px 10px;
+    position: fixed;
+    right: 40px;
+    transition: .3s all;
+}
+
+#back__top:hover {
+    background: #E16;
+    color: #fff;
+}
+
+/* ================ SOBRE ================ */
+
+.about__project {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+
+.about__icone img {
+    margin: 0 auto;
+}
+
+.about__descript h2 {
+    color: #E16;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.about__descript p {
+    color: #97A7B2;
+    font-size: 1.125em;
+    line-height: 1.5em;
+}
+
+.valores {
+    margin-bottom: 100px;
+}
+
+.valores::after, .valores::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.valores h3 {
+    color: #407;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.valores h3::after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 4px;
+    background: #E16;
+    margin: 5px auto 0 auto;
+}
+
+.valor__item {
+    background: #fff8f9;
+    border: 1px solid #E16;
+    border-radius: 5px;
+    padding: 45px;
+    margin-bottom: 30px;
+}
+
+.valor__img img {
+    margin: 0 auto;
+}
+
+.valor__item h4 {
+    color: #407;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+    margin: 40px 0 10px 0;
+}
+
+.valor__item p {
+    color: #407;
+    font-weight: 300;
+    font-size: 1.125em;
+    text-align: center;
+}
+
+.team {
+    margin-bottom: 100px;
+}
+
+.team::after, .team::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.team h3 {
+    color: #407;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.team h3::after {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 4px;
+    background: #E16;
+    margin: 5px auto 0 auto;
+}
+
+.member__card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    padding: 50px 40px;
+    margin-bottom: 20px;
+}
+
+.member__img img {
+    box-shadow: 0 3px 10px rgba(0,0,0,.1);
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto 30px auto;
+}
+
+.member__card h4 {
+    color: #E16;
+    font-size: 1.25em;
+    font-family: 'Kalam', serif;
+    text-align: center;
+}
+
+/* ================ CLIPPING ================ */
+
+#clipping h2 {
+    color: #407;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#clipping h2::after {
+    content: '';
+    display: block;
+    background: #E16;
+    width: 45px;
+    height: 5px;
+    margin: 5px auto 0 auto;
+}
+
+.news__list {
+    margin-bottom: 100px;
+}
+
+.news__list::after, .news__list::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.news__card {
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    transition: .3s all;
+    position: relative;
+    top: 0;
+}
+
+.news__card:hover {
+    box-shadow: 0 3px 10px 3px rgba(0,0,0,.1);
+    top: -10px;
+}
+
+.news__img {
+    border-radius: 2px 2px 0 0;
+}
+
+.news__img img {
+    border-radius: 2px 2px 0 0;
+}
+
+.news__info {
+    background: #fff;
+    border: 1px solid #F3F3F3;
+    border-radius: 0 0 2px 2px ;
+    padding: 10px;
+}
+
+.news__info h4 {
+    color: #407;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.news__info h5 {
+    color: #407;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.news__info ul li {
+    display: inline-block;
+}
+
+.news__info ul li a {
+    background: #BA89E5;
+    border: 1px solid #407;
+    color: #fff;
+    border-radius: 2px;
+    display: block;
+    font-size: 0.675em;
+    padding: 4px;
+}
+
+.news__info ul li:nth-child(2) a {
+    background: #EAA4C4;
+    border: 1px solid #EE1166;
+}
+
+.news__info ul li:nth-child(3) a {
+    background: #82CC7A;
+    border: 1px solid #2E991F;
+}
+
+/* ================ EXPERIMENTOS ================ */
+
+#experimentoteca {
+    margin-bottom: 100px;
+}
+
+.experimentos__lista {
+    margin: 0 auto;
+    max-width: 770px;
+}
+
+.experimento {
+    background: #fff;
+    border: 1px solid #407;
+    cursor: pointer;
+    padding: 15px 20px;
+    transition: .3s all;
+    margin-bottom: 15px;
+}
+
+.experimento.active {
+    background: #D8CFE5;
+}
+
+.experimento:hover {
+    background: #D8CFE5;
+}
+
+.experimento h3 {
+    color: #407;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.experimento__resp {
+    margin: 30px 0 60px 0;
+    padding: 0px 20px;
+    display: none;
+}
+
+.experimento__resp h3 {
+    color: #E16;
+    font-family: 'Kalam', serif;
+    font-size: 1.25em;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.experimento__resp p {
+    color: #97A7B2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125em;
+    font-weight: 300;
+    line-height: 1.5em;
+    margin-bottom: 30px;
+}
+
+.experimento__resp ul li {
+    color: #97A7B2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125em;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.experimento__resp ul li:last-child {
+    margin-bottom: 30px;
+}
+
+.experimento__img {
+    background: #407;
+    max-width: 570px;
+    margin: 20px auto 30px auto;
+    border: 1px solid #407;
+    box-shadow: 0 0 10px 3px rgba(0,0,0,.1);
+}
+
+
 @media (max-width: 739px) {
     .main__header {
         margin: 100px auto;
@@ -1057,6 +1384,10 @@ body {
     }
     .main__header p {
         font-size: 1.25em;
+    }
+    .main__header a {
+        font-size: 1.125em;
+        width: 200px;
     }
     .header__notice h1 {
         font-size: 2.5em;
@@ -1085,6 +1416,12 @@ body {
     }
     .video {
         margin-bottom: 30px;
+    }
+    .news__img {
+        background: #000;
+    }
+    .news__img img {
+        margin: 0 auto;
     }
 }
 

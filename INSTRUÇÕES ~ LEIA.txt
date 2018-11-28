@@ -1,0 +1,5 @@
+Para acessar o site siga os seguintes passos:
+
+1 - Clique com o botão direito em 'index.html'
+2 - Clique em 'Abrir com' > 'Google Chrome'
+3 - Pronto!
